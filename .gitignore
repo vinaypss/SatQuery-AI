@@ -1,0 +1,21 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+optical_sar_env/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Bun (project uses npm; package-lock.json is canonical)
+bun.lock
